@@ -1,0 +1,157 @@
+body#index{
+  background-image: url("img/estadio.jpg");
+  background-size: cover;
+}
+
+#login {
+    background-color: white;
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 20%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-color: darkblue;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.textoLogin {
+    text-align: center;
+    margin-bottom: 20%;
+    font-size: 3px;
+}
+
+.textoLogin h1 {
+    font-size: 20em;
+}
+body#paginaPrincipal{
+  background-image: url("img/principal.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#ppal {
+    background-color: red;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 20%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 8%;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+#ppal a {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.contenidoppal {
+    margin: auto;
+    color: white;
+}
+
+body#jugadores{
+  background-image: url("img/liga.jpg");
+  background-size: cover;
+}
+
+body#correcto{
+  background-image: url("img/liga1.png");
+  background-size: cover;
+}
+
+body#modifica{
+  background-image: url("img/liga2.jpg");
+  background-size: cover;
+}
+
+div#messi{
+  position: absolute;
+  width: 420px;
+	height: 420px;
+  margin-left: 717px;
+  background-image: url("img/messi.png");
+}
+
+div#champion{
+    position: absolute;
+    width: 495px;
+    height: 420px;
+    margin-left: 381px;
+    background-size: 52%;
+    background-image: url(img/champion.png);
+    background-repeat: no-repeat;
+    margin-top: -3%;
+}
+
+div#ronaldo{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  margin-left: 400px;
+  background-image: url("img/llora.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div#ramos{
+    position: absolute;
+    width: 675px;
+    height: 500px;
+    margin-left: 236px;
+    background-image: url(img/ramos.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#cr{
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  margin-left: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/ronaldo.gif");
+}
+
+div#copa{
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  margin-left: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/copa.gif");
+}
+
+div#camiseta{
+  position: absolute;
+  width: 700px;
+	height: 500px;
+  margin-left: 400px;
+  background-image: url("img/camiseta.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div#levanta{
+    position: absolute;
+    width: 700px;
+    margin-top: 10%;
+    height: 374px;
+    margin-left: 169px;
+    background-image: url(img/levanta.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo{
+  position: absolute;
+  width: 95px;
+	height: 75px;
+  margin-left: 1037px;
+  margin-top: -42px;
+  background-image: url("img/logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
