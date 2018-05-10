@@ -33,7 +33,7 @@ En este caso elegiremos competiciones, ya que es la parte que se ha añadido al 
 
 ## Competiciones
 
-Nos muestra el listado de los nombres de las competiciones y qué equipo participa en ella.
+Nos muestra el listado de los nombres de las competiciones y qué equipo participa en ella. He utilizado un ArrayList para los nombres de las competiciones.
 
 <img width="820px" src="/capturas/competiciones.png">
 
@@ -58,6 +58,8 @@ Podemos comprobar al final de la tabla que la competición se ha añadido correc
 <img width="820px" src="/capturas/muestracompeticionañadido.png">
 
 ## Modificar competición
+
+Aqui también hago uso del ArrayList para los nombres de las competiciones.
 
 <img width="820px" src="/capturas/modificarcompeticion.png">
 
