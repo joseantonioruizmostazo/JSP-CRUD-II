@@ -46,7 +46,8 @@
               <label>&nbsp;&nbsp;Pie dominante:&nbsp;</label><input type="text" size="5" name="PieJug" value="<%= request.getParameter("PieJug") %>">
             </div>
             <div class="form-group">
-              <label>&nbsp;&nbsp;Equipo:&nbsp;</label><select name="CodEqui"><option value="<%= request.getParameter("CodEqui") %>"><% request.getParameter("NomEqui"); %></option>
+                <% String NomEqui = request.getParameter("NomEqui"); %>
+                <label>&nbsp;&nbsp;Equipo:&nbsp;</label><select name="CodEqui"><option value="<%= request.getParameter("CodEqui") %>"><%=NomEqui%></option>
                 <%
                   Class.forName("com.mysql.jdbc.Driver");
                   Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3399/clubes","root", "");
@@ -65,7 +66,7 @@
             </select>
             </div>
             <hr>
-            &nbsp;&nbsp;<a href="index.jsp" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span>Cancelar</a>
+            &nbsp;&nbsp;<a href="jugadores.jsp" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span>Cancelar</a>
             <button type="submit" class="btn btn-info"><span class="glyphicon glyphicon-ok"></span>Aceptar</button><br><br>
           </form>
 

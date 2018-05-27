@@ -94,6 +94,7 @@
               <input type="hidden" name="CodComp" value="<%=listado.getString("CodComp") %>">  
               <input type="hidden" name="NomComp" value="<%=listado.getString("NomComp") %>">
               <input type="hidden" name="CodEqui" value="<%=listado.getString("CodEqui") %>">
+              <input type="hidden" name="NomEqui" value="<%=listado.getString("NomEqui") %>">
                 <button type="submit"  class="btn btn-warning"><span class="glyphicon glyphicon-pencil"></span></button>
             </form>
         </td>

@@ -52,7 +52,8 @@
                 </select>
             </div>
             <div class="form-group">
-              <label>&nbsp;&nbsp;Equipo:&nbsp;</label><select name="CodEqui"><option value="<%= request.getParameter("CodEqui") %>"><% request.getParameter("NomEqui"); %></option>
+                <% String NomEqui = request.getParameter("NomEqui"); %>
+              <label>&nbsp;&nbsp;Equipo:&nbsp;</label><select name="CodEqui"><option value="<%= request.getParameter("CodEqui") %>"><%=NomEqui%></option>
                 <%
                   Class.forName("com.mysql.jdbc.Driver");
                   Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3399/clubes","root", "");
