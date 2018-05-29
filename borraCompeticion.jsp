@@ -22,7 +22,9 @@
       Statement s = conexion.createStatement();
 
       s.execute ("DELETE FROM compite WHERE CodComp=" + request.getParameter("CodComp"));
-      out.println("Competición borrada correctamente.");
+       %>
+      <div class="margin"><span class="textomensaje">Competición borrada correctamente</span></div>
+      <%
       s.close();
     %>	
     <br>

@@ -20,7 +20,7 @@
   </head>
 
   <body id="index">
-      <div class="textoLogin"><h1>LOGIN</h1></div>
+      <div class="textoLogin"><h1>Gestión de jugadores y clubes de la Liga BBVA y sus competiciones</h1></div>
 <form method="get" action="login.jsp" id="login">
     <center>
             <tr>

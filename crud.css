@@ -17,12 +17,12 @@ body#index{
 
 .textoLogin {
     text-align: center;
-    margin-bottom: 20%;
-    font-size: 3px;
+    margin-bottom: 10%;
 }
 
 .textoLogin h1 {
-    font-size: 20em;
+    font-size: 3em;
+    font-family: fantasy;
 }
 body#paginaPrincipal{
   background-image: url("img/principal.jpg");
@@ -154,4 +154,19 @@ div#levanta{
   background-image: url("img/logo.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.textomensaje {
+    color: white;
+    font-size: 2.3em;
+    background-color: darkblue;
+    text-align: center;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.margin {
+    margin-left: 20%;
+    width: 100%;
 }

@@ -34,7 +34,9 @@
                            + "', CodEqui=" + Integer.valueOf(request.getParameter("CodEqui"))
                            + " WHERE CodJug=" + Integer.valueOf(request.getParameter("CodJug"));
       s.execute(actualizacion);
-      out.println("jugador actualizado correctamente.");
+      %>
+      <div class="margin"><span class="textomensaje">Jugador actualizado correctamente</span></div>
+      <%
       
       conexion.close();
     %>

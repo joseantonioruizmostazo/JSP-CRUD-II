@@ -22,7 +22,9 @@
       Statement s = conexion.createStatement();
 
       s.execute ("DELETE FROM jugadores WHERE CodJug=" + request.getParameter("CodJug"));
-      out.println("Jugador borrado correctamente.");
+         %>
+      <div class="margin"><span class="textomensaje">Jugador borrado correctamente</span></div>
+      <%
       s.close();
     %>	
     <br>

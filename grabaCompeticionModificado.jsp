@@ -29,7 +29,9 @@
                            + "', CodEqui=" + Integer.valueOf(request.getParameter("CodEqui"))
                            + " WHERE CodComp=" + Integer.valueOf(request.getParameter("CodComp"));
       s.execute(actualizacion);
-      out.println("competición actualizada correctamente.");
+       %>
+      <div class="margin"><span class="textomensaje">competición actualizada correctamente</span></div>
+      <%
       
       conexion.close();
     %>

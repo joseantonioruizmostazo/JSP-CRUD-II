@@ -32,8 +32,10 @@
       codigoDeJugador.last();
       
       if (codigoDeJugador.getRow() != 0) {
-        out.println("Lo siento, no se ha podido dar de alta, ya existe un jugador con ese codigo "
-                    + request.getParameter("CodJug") + ".");
+          %>
+      <div><span class="textomensaje">Lo siento, no se ha podido dar de alta, ya existe un jugador con ese codigo</span></div>
+      <%
+        
       } else {
         String insercion = "INSERT INTO jugadores VALUES (" + Integer.valueOf(request.getParameter("CodJug"))
                            + ", '" + request.getParameter("NomJug")
@@ -44,7 +46,9 @@
                            + ", '" + request.getParameter("PieJug")
                            + "', " + Integer.valueOf(request.getParameter("CodEqui")) + ")";
         s.execute(insercion);
-        out.println("Jugador dado de alta correctamente.");
+         %>
+      <div class="margin"><span class="textomensaje">Jugador dado de alta correctamente</span></div>
+      <%
       }
       conexion.close();
     %>

@@ -32,15 +32,17 @@
       codigoDeComp.last();
       
       if (codigoDeComp.getRow() != 0) {
-        out.println("Lo siento, no se ha podido dar de alta, ya existe un compite con ese codigo "
-                    + request.getParameter("CodComp") + ".");
+           %>
+      <div><span class="textomensaje">Lo siento, no se ha podido dar de alta, ya existe un compite con ese codigo</span></div>
+      <%
       } else {
         String insercion = "INSERT INTO compite VALUES (" + Integer.valueOf(request.getParameter("CodComp"))
                            + ", '" + request.getParameter("NomComp") 
                            + "', " + Integer.valueOf(request.getParameter("CodEqui")) + ")";
         s.execute(insercion);
-        
-        out.println("Compite dado de alta correctamente.");
+         %>
+      <div class="margin"><span class="textomensaje">Compite dado de alta correctamente</span></div>
+      <%
       }
       conexion.close();
     %>
